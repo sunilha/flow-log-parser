@@ -1,9 +1,9 @@
-## Log Parser
+## Flow Log Parser
 
 Java program to parse flow log data and map each row to a tag based on lookup table. The lookup table is defined as a csv file,
 and it has 3 columns, dstport,protocol,tag. The dstport and protocol combination decide what tag can be applied.
 
-This is a simple Java program with gradle build tool and no usage of external libraries apart from junit for unit testing.
+This is a simple Java project with gradle build tool and no usage of external libraries apart from junit for unit testing.
 
 ### Pre-requisites
 Java 21
@@ -14,6 +14,8 @@ Java 21
 
 
 ### Build command
+This command will compile the java project and run all the test cases
+
 ``` .\gradlew clean build ```
 
 ### Run Command
